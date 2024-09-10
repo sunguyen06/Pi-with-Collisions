@@ -63,7 +63,7 @@ while user_prompt:
 b2Mass = int(user_input)
 print(f"Moving mass is {b2Mass}")
 b2Pos = 300  
-b2vel = -200000
+b2vel = -2000
 
 block1 = Block(b1Mass, b1Pos, 0, (0, 0, 255))
 block2 = Block(b2Mass, b2Pos, b2vel, (255, 0, 0))
